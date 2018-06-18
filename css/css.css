@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.wrapper{
+	width: 100%;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	background-image: url(../img/timg.jpg);
+	background-size: cover;
+	position: relative;
+}
+table{
+	border-collapse: collapse;
+	background-color: rgba(0, 0 , 0, 0.9);
+	box-shadow: 0px 10px 10px #00fffd;
+}
+tr{
+	border-radius: 5px;
+}
+td{
+	width: 30px;
+	height: 30px;
+	border-radius: 8px;
+	border:1px solid #333;	
+	/* background-color: black; */
+}
+#score{
+	width: 120px;
+	height: 50px;
+	color: blue;
+	background-color: #00fffd;
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: bold;
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 1px solid orange;
+	display: none;
+}
+#score span{
+	color: crimson;
+	text-shadow: 0px 5px 5px firebrick;
+}
+#button{
+	/* position: absolute; */
+	width: 120px;
+	left: 0;
+	bottom: 0;
+}
+input{
+	width: 120px;
+	height: 40px;
+	border: none;
+	background-color: #00fffd;
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#start{
+	border-bottom: 1px solid orange;
+}
+#paused{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: none;
+}
+.show{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	background-color: yellow;
+	color: blue;
+	font-size: 30px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: -40px;	
+	left: 50%;	
+	display: none;
+}
+.show p{
+	height: 50px;;
+}
+#goon{
+	background-color: #00fffd;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+#restart{
+	background-color: turquoise;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	cursor: pointer;
+}
+.c1{
+	background: -webkit-linear-gradient(top left , #ed3232, #682d18);
+}
+.c2{
+	background: -webkit-linear-gradient(top left , #ff8b00, #845205);
+}
+.c3{
+	background: -webkit-linear-gradient(top left , #f2ff00, #7a6600);
+}
+.c4{
+	background: -webkit-linear-gradient(top left , #7cff00, #214f05);
+}
+.c5{
+	background: -webkit-linear-gradient(top left , #00fffd, #043836);
+}
+.c6{
+	background: -webkit-linear-gradient(top left , #56a3ef, #043451);
+}
+.c7{
+	background: -webkit-linear-gradient(top left , #da82f8, #4b0874);
+}

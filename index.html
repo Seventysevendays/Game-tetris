@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/css.css">
+    <title>俄罗斯方块</title>
+</head>
+<body>
+    <div class="wrapper">      
+        <div id="button">
+            <p id="score">分数:<span id="scoreChange">0</span></p>
+            <input type="button" value="开始游戏" id="start"> 
+            <input type="button" value="暂停" id="paused"> 
+        </div>
+        <div class = "show">
+            <p>暂停中</p>
+            <p id="goon">继续游戏</p>
+        </div> 
+        <div class = "show">
+                <p>分数：<span id="overScore">0</span></p>
+                <p id="restart">重新开始</p>
+        </div>                   
+    </div>
+    <audio id="bgm" autoplay loop>
+        <source src="./music/bgm.mp3">
+    </audio>
+    <audio id="anjian" src="./music/anjian.mp3"></audio>
+    <audio id="xiaohang" src="./music/xiaohang.mp3"></audio>
+    <script src="./js/blocktypes.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/Block.js"></script>
+    <script src="./js/Map.js"></script>
+    <script> 
+        new Game();                 
+    </script> 
+</body>
+</html>
