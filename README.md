@@ -11,9 +11,9 @@
 > * 游戏结束，重新开始
 > * Css3应用
 
-##游戏展示
-###游戏中
+## 游戏展示
+### 游戏中
 ![游戏中](https://github.com/Seventysevendays/Game-tetris/blob/master/captures/play.png)
 
-###游戏暂停
+### 游戏暂停
 ![暂停](https://github.com/Seventysevendays/Game-tetris/blob/master/captures/pause.png)
