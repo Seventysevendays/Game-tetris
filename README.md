@@ -10,3 +10,4 @@
 > * 积分模式、难度升级
 > * 游戏结束，重新开始
 > * Css3应用
+![游戏中](https://github.com/Seventysevendays/Game-tetris/blob/master/captures/play.png)
