@@ -38,6 +38,16 @@
 > * this.map = 地图数组，当Game类判定砖块不能移动时将更新这个数组，从而实现移动的转块向死亡的砖块的过渡
 > * Map.prototype.render ：利用Game类的setClass方法给地图上色
 > * Map.prototype.clear：游戏开始和结束时清空地图的方法
+#### blocktypes.js: 不同形状、不同方向砖块数组的罗列
+> * {
+      L : [L1 , L2 , L3 , L4],
+      J : [J1 , J2 , J3 , J4],
+      Z : [S1 , S2],
+      S : [Z1 , Z2],
+      T : [T1 , T2 , T3 , T4],
+      O : [O1],
+      I : [I1 , I2]
+    }
 ### 游戏展示
 #### 游戏中
 ![游戏中](https://github.com/Seventysevendays/Game-tetris/blob/master/captures/play.png)
