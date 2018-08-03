@@ -50,7 +50,6 @@
     }
 ### 游戏展示
 #### 游戏中
-![游戏中](https://github.com/Seventysevendays/Game-tetris/blob/master/captures/play.png)
-
+<img src="https://github.com/Seventysevendays/Game-tetris/blob/master/captures/play.png" width="400"/>
 #### 游戏暂停
 ![暂停](https://github.com/Seventysevendays/Game-tetris/blob/master/captures/pause.png)
