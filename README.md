@@ -52,4 +52,4 @@
 #### 游戏中
 <img src="https://github.com/Seventysevendays/Game-tetris/blob/master/captures/play.png" width="400"/>
 #### 游戏暂停
-![暂停](https://github.com/Seventysevendays/Game-tetris/blob/master/captures/pause.png)
+<img src="https://github.com/Seventysevendays/Game-tetris/blob/master/captures/pause.png" width="400"/>
